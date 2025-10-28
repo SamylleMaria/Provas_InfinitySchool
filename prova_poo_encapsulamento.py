@@ -2,7 +2,7 @@
 
 
 class ContaBancaria:   
-    def __init__(self, titular: str, saldo: float = 0.0):
+    def __init__(self, titular: str, saldo: float):
         self.__titular = titular
         self.__saldo = saldo
 
